@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <link rel="stylesheet" href="./CSS/reset.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+  <link rel="icon" href="./IMG/shoe_icon.png" />
+  <title>Jordan Shoes | Home</title>
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="container-one">
+      <p class="desconto">Ganhe R$ 10,00 de desconto no frete</p>
+    </div>
+
+  </header>
+
+  <div class="container-two">
+    <p class="title">Jordan Shoes</p>
+  </div>
+
+  <div class="wrapper-background">
+    <div class="wrapper-texts">
+      <div class="container-three">
+        <p>A melhor loja de Jordan</p>
+        <p id="typed" class="a-melhor"></p>
+      </div>
+
+      <div class="container-four" id="typed-srtings">
+        <p>O tênis Jordan é fruto de uma velha e forte<br />parceira entre a Nike e o jogador Michel Jordan.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-five">
+    <p class="destaques">Destaques</p>
+    <p class="frete">Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado. </p>
+  </div>
+
+  <div>
+    <ul class="primeira-linha">
+        <li>
+          <div class="card">
+            <img src="./IMG/primeiro.png" class="primeiro-tenis"/>
+          </div>
+        </li>
+
+        <li>
+          <div class="card">
+            <img src="IMG/segundo.png" class="primeiro-tenis"/>
+          </div>
+        </li>
+
+        <li>
+          <div class="card">
+            <img src="./IMG/terceiro.png" class="primeiro-tenis"/>
+          </div>
+        </li>
+
+        <li>
+          <div class="card">
+            <img src="./IMG/quarto.png" class="primeiro-tenis"/>
+          </div>
+        </li>
+        
+    </ul>
+    <ul class="segunda-linha">
+
+        <li>
+          <div class="card">
+            <img src="./IMG/quinto.png" class="segundo-tenis"/>
+          </div>
+        </li>
+
+        <li>
+          <div class="card">
+           <img src="./IMG/sexto.png" class="segundo-tenis"/>
+          </div>
+        </li>
+
+        <li>
+          <div class="card">
+           <img src="./IMG/setimo.png" class="segundo-tenis"/>
+          </div>
+        </li>
+
+        <li>
+          <div class="card">
+            <img src="./IMG/oitavo.png" class="segundo-tenis"/>
+          </div>
+        </li>
+      </ul>
+  </div>
+
+  <footer>
+      <p class="text-footer">&copy; Todos os direitos reservados</p>
+  </footer>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed( '#typed', {
+      stringsElement: '#typed-srtings',
+      typedSpeed: 50,
+    });
+</script>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+          const sr = ScrollReveal({
+              origin: 'left',
+              distance: '100px',
+              duration: 1000,
+              reset: true
+          });
+  
+          ScrollReveal().reveal('.container-one', { delay: 100 });
+          ScrollReveal().reveal('.container-five', { delay: 200 });
+          ScrollReveal().reveal('.container-two', { delay: 300 });
+  </script>
+
+</html>
