@@ -59,7 +59,8 @@ header {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  padding: 120px 0 0 100px;
+  padding: 112px;
+  margin: 0 0 0 100px;
 }
 
 .container-three {
@@ -166,4 +167,34 @@ footer {
 .text-footer {
   color: var(--white);
   padding: 22px;
+}
+
+@media screen and (max-width: 414px) {
+  .desconto {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .wrapper-background {
+    height: 20%;
+    width: 100%;
+  }
+  .wrapper-texts {
+    padding: 20px;
+    margin: 0;
+  }
+  .container-three {
+    font-size: 22px;
+  }
+  #typed-srtings {
+    font-size: 10px;
+  }
+  .primeira-linha {
+    flex-direction: column;
+    padding: 13px;
+  }
+  .segunda-linha {
+    flex-direction: column;
+  }
 }
